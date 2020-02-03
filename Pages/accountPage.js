@@ -23,37 +23,3 @@ var AccountPage = function () {
     };
 };
 module.exports = new AccountPage();
-// class accountPage{
-//     constructor() {
-//         this.credential = $('.txt_loginForm_emailPhone input');
-//         this.password = $('.txt_loginForm_emailPhone input');
-//         this.loginBtn = $('#btn_loginForm_submit');
-//     }
-//     /**
-//      * search for a friend
-//      * @param  {string} credential
-//      * @return accountPage
-//      */
-//     tyhpeCredential(string){
-//         this.credential.sendKeys(string)
-//         return accountPage();
-//     }
-//     /**
-//      * search for a friend
-//      * @param  {string} credential
-//      * @return accountPage
-//      */
-//     typePassword(string){
-//          this.password.sendKeys(string);
-//          return accountPage();
-//     }
-//
-//     /**
-//      * @return {promise}
-//      */
-//     clickLoginSubmitBtn(){
-//         return this.loginBtn().click();
-//     }
-//
-// }
-// module.exports = new accountPage();
