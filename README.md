@@ -5,4 +5,5 @@
   * webdriver-manager - this needs to be updated to latest version.
 
 # Running Tests
+webdriver-manager start
 protractor config.js
