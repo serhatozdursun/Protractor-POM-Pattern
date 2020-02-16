@@ -9,8 +9,8 @@ describe('Navigate to HomePage', function () {
     it('Click Login Menü and Navigate to AccountPage',async function () {
         homePage.open();
         homePage.clickLoginMenu();
-        accountPage.typeCredential("apsiyontestotomasyon@gmail.com");
-        accountPage.typePassword("Apsiy0n2017?");
+        accountPage.typeCredential("xxxxx@gmail.com");
+        accountPage.typePassword("Xxxxxxx");
         accountPage.clickSubmit();
         accountDashboardPage.isAccountPageOpen();
     });
